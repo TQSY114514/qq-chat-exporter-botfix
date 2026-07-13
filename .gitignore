@@ -1,0 +1,29 @@
+# ===== 隐私 / 个人数据（绝不入库）=====
+# QQ 账号相关的运行时配置（含 token、登录态、QQ号）——只排除带 QQ 号后缀的，
+# 保留通用 napcat.json / onebot11.json 作为模板。
+config/*_[0-9]*.json
+config/qq_path.txt
+config/webui.json
+config/plugins/napcat-plugin-qce/*.json
+
+# 登录二维码、缓存、日志
+cache/
+logs/
+**/*.log
+
+# ===== 备份 / 调试 =====
+*.bak
+*.actual
+_debug_*
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# ===== 构建中间产物 =====
+plugins/napcat-plugin-qce/dist-tests/
+**/node_modules/.cache/

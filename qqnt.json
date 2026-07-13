@@ -1,0 +1,22 @@
+﻿{
+    "name":  "qq-chat",
+    "version":  "9.9.31-49738",
+    "private":  true,
+    "description":  "QQ",
+    "productName":  "QQ",
+    "author":  {
+                   "name":  "Tencent",
+                   "email":  "QQ-Team@tencent.com"
+               },
+    "homepage":  "https://im.qq.com",
+    "sideEffects":  true,
+    "bin":  {
+                "qd":  "externals/devtools/cli/index.js"
+            },
+    "buildVersion":  "49738",
+    "main":  "./loadNapCat.js",
+    "isPureShell":  true,
+    "isByteCodeShell":  true,
+    "platform":  "win32",
+    "eleArch":  "x64"
+}
