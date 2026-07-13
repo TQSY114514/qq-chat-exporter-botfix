@@ -61,3 +61,8 @@
 ## License
 
 本项目遵循上游声明的 **GPL-3.0** 许可证。原项目版权归原作者 shuakami 所有，本仓库的修改部分以 GPL-3.0 发布。完整许可证文本见 [LICENSE](LICENSE)。
+
+
+
+问题反馈:https://github.com/shuakami/qq-chat-exporter/issues/537
+现已解决:https://github.com/shuakami/qq-chat-exporter/pull/540 感谢采纳我的意见
