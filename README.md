@@ -2,6 +2,9 @@
 
 > ⚠️ **非官方修改版**。这是基于 [shuakami/qq-chat-exporter](https://github.com/shuakami/qq-chat-exporter) 完整包 **v5.5.79**（NapCat v4.18.8 + QCE 5.5.79，TypeScript 版）的修改版，**仅修复「QQ 机器人 / 非好友单聊会话识别不到」一个问题**。与原作者无关，不代表官方。
 
+> ✅ **状态更新（2026-07-13）**：该问题已被上游官方修复 —— PR [shuakami/qq-chat-exporter#540](https://github.com/shuakami/qq-chat-exporter/pull/540)（合并入 Rust 重写版 master）。修复方向与本仓库一致（覆盖所有 private-like chatType 的会话识别 + resolve_peer_uid 扩展 + 本地会话合并去重）。
+> **如果你用的是上游新版（Rust 版），更新到含 #540 的版本即可，不需要本仓库。** 本仓库仅供仍在使用 **v5.5.79 TS 完整包**、暂时无法升级的用户使用。感谢原作者 shuakami 采纳并合并。原始 Issue：[#537](https://github.com/shuakami/qq-chat-exporter/issues/537)
+
 ## 这是什么
 
 [QQ Chat Exporter (QCE)](https://github.com/shuakami/qq-chat-exporter) 是一个运行在 [NapCat](https://github.com/NapNeko/NapCatQQ) 之上的插件，用来把 QQ 聊天记录导出为 HTML / JSON / TXT / Excel。
@@ -61,8 +64,3 @@
 ## License
 
 本项目遵循上游声明的 **GPL-3.0** 许可证。原项目版权归原作者 shuakami 所有，本仓库的修改部分以 GPL-3.0 发布。完整许可证文本见 [LICENSE](LICENSE)。
-
-
-
-问题反馈:https://github.com/shuakami/qq-chat-exporter/issues/537
-现已解决:https://github.com/shuakami/qq-chat-exporter/pull/540 感谢采纳我的意见
